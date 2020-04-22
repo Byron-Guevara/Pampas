@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'BentonModDisp-Black';
+  src: url("../fonts/BentonModDisp-Black.eot");
+  src: url("../fonts/BentonModDisp-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/BentonModDisp-Black.svg#BentonModDisp-Black") format("svg"), url("../fonts/BentonModDisp-Black.ttf") format("truetype"), url("../fonts/BentonModDisp-Black.woff") format("woff"), url("../fonts/BentonModDisp-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonModDisp-Bold';
+  src: url("../fonts/BentonModDisp-Bold.eot");
+  src: url("../fonts/BentonModDisp-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BentonModDisp-Bold.svg#BentonModDisp-Bold") format("svg"), url("../fonts/BentonModDisp-Bold.ttf") format("truetype"), url("../fonts/BentonModDisp-Bold.woff") format("woff"), url("../fonts/BentonModDisp-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonModDisp-Light';
+  src: url("../fonts/BentonModDisp-Light.eot");
+  src: url("../fonts/BentonModDisp-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BentonModDisp-Light.svg#BentonModDisp-Light") format("svg"), url("../fonts/BentonModDisp-Light.ttf") format("truetype"), url("../fonts/BentonModDisp-Light.woff") format("woff"), url("../fonts/BentonModDisp-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonModDisp-Regular';
+  src: url("../fonts/BentonModDisp-Regular.eot");
+  src: url("../fonts/BentonModDisp-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BentonModDisp-Regular.svg#BentonModDisp-Regular") format("svg"), url("../fonts/BentonModDisp-Regular.ttf") format("truetype"), url("../fonts/BentonModDisp-Regular.woff") format("woff"), url("../fonts/BentonModDisp-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonModDisp-Semibold';
+  src: url("../fonts/BentonModDisp-Semibold.eot");
+  src: url("../fonts/BentonModDisp-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/BentonModDisp-Semibold.svg#BentonModDisp-Semibold") format("svg"), url("../fonts/BentonModDisp-Semibold.ttf") format("truetype"), url("../fonts/BentonModDisp-Semibold.woff") format("woff"), url("../fonts/BentonModDisp-Semibold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   scroll-behavior: smooth;
   -webkit-box-sizing: content-box;
