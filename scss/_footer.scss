@@ -1,0 +1,104 @@
+footer{
+    background: #fafafa;
+    padding: 20px 0 40px;
+    .contenedor-general-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 54vw;
+        margin: 0 auto;
+        .menu{
+            display: flex;
+            .cont-menu{
+                .tit{
+                    font-family: 'BentonModDisp-Bold';
+                    font-size: 16px;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    color: black;
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+                ul{
+                    padding-left: 10px;
+                    margin: 0;
+                    li{
+                        font-family: 'BentonModDisp-Regular';
+                        font-size: 7px;
+                        letter-spacing: 2px;
+                        line-height: 11px;
+                        text-transform: uppercase;
+                        color: #929292;
+                    }
+                }
+    
+                &:first-child{
+                    margin-right: 10px;
+                }
+            }
+        }
+        .redes{
+            .cont-redes{
+                display: flex;
+                margin-top: 5px;
+                img{
+                    height: 18px;
+                    filter: invert(1);
+                    margin: 0 8px;
+                    transition: all .3s;
+                    &:hover{
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        .contacto{
+            .cont-input{
+                display: flex;
+                input{
+                    background: transparent;
+                    border: 2px solid #4b4b4b;
+                    width: 148px;
+                    height: 10px;
+                    padding: 10px;
+                    font-family: 'BentonModDisp-Regular';
+                    color: #969696;
+                    outline: none;
+                }
+                button{
+                    margin-left: 6px;
+                    padding: 0;
+                    width: 30px;
+                    height: 30px;
+                    background: black;
+                    border: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    outline: none;
+                    cursor: pointer;
+                    border: 2px solid transparent;
+                    transition: all .3s;
+                    img{
+                        height: 15px;
+                    }
+                    &:hover{
+                        border: 2px solid #4b4b4b;
+                        background: white;
+                        img{
+                            filter: invert(1);
+                        }
+                    }
+                }
+            }
+            p{
+                font-family: 'BentonModDisp-Bold';
+                font-size: 8px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin: 0;
+                margin-top: 20px;
+                color: black;
+            }
+        }
+    }
+}

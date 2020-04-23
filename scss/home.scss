@@ -1,4 +1,19 @@
-$gris: #969696;
+* {
+    scroll-behavior: smooth;
+    box-sizing: content-box;
+    font-style: normal;
+    line-height: 1;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
 
 .contenedor-principal{
     position: relative;
@@ -78,7 +93,7 @@ $gris: #969696;
                 text-align: center;
                 text-transform: uppercase;
                 span{
-                    color: $gris;
+                    color: #969696;
                 }
             }
         }
@@ -120,7 +135,7 @@ $gris: #969696;
         .info{
             p{
                 font-family: 'BentonModDisp-Regular';
-                color: $gris;
+                color: #969696;
                 margin: 0;
                 text-transform: uppercase;
                 font-size: 12px;

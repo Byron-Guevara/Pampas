@@ -1,3 +1,21 @@
+* {
+  scroll-behavior: smooth;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-style: normal;
+  line-height: 1;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .contenedor-principal {
   position: relative;
   overflow: hidden;
