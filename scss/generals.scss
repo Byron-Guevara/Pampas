@@ -25,4 +25,83 @@ a {
     margin: 0 auto;
     margin-top: 85px;
     padding: 110px 0;
+    max-width: 900px;
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'BentonModDisp-Bold';
+        font-size: 42px;
+        margin: 0;
+        margin-bottom: 40px;
+        letter-spacing: 4px;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-family: 'BentonModDisp-Regular';
+        letter-spacing: 2px;
+        color: #a5a5a5;
+        text-align: justify;
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .form-cont{
+            width: 100%;
+            input{
+                background: transparent;
+                border: 2px solid #d2d2d2;
+                width: calc(100% - 64px);
+                padding: 10px 30px;
+                font-family: 'BentonModDisp-Regular';
+                font-size: 10px;
+                letter-spacing: 2px;
+                color: #a5a5a5;
+                margin-bottom: 20px;
+                outline: none;
+            }
+            textarea{
+                background: transparent;
+                border: 2px solid #d2d2d2;
+                width: calc(100% - 64px);
+                padding: 10px 30px;
+                font-family: 'BentonModDisp-Regular';
+                font-size: 10px;
+                letter-spacing: 2px;
+                color: #a5a5a5;
+                margin-bottom: 20px;
+                outline: none;            
+            }
+            &.medio{
+                width: 47%;
+            }
+        }
+        .form-cont-submit{
+            input{
+                background: transparent;
+                border: 2px solid transparent;
+                background: black;
+                padding: 17px 27px;                
+                font-family: 'BentonModDisp-Regular';
+                font-size: 10px;
+                letter-spacing: 2px;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                text-transform: uppercase;
+                transition: all .3s;
+
+                &:hover{
+                    border: 2px solid black;
+                    background: transparent;
+                    color: black;
+                }
+            }
+        }
+    }
+
 }

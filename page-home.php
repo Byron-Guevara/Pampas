@@ -267,6 +267,19 @@
         </div>
 
 
+        <div class="contenedor-general-producto">
+            <div class="sup">
+                <div class="line"></div>
+            </div>
+            <div class="contenedor-producto">
+                <?php echo do_shortcode( '[product_page id=90]' ); ?>
+            </div>
+            <div class="inf">
+                <div class="line"></div>
+            </div>
+        </div>
+
+
         <div class="contenedor-general-contacto">
             <div class="sup">
                 <div class="line"></div>

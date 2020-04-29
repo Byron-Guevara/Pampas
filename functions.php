@@ -33,5 +33,39 @@ function add_theme_scripts() {
         wp_enqueue_style( 'generals', get_template_directory_uri() . '/css/generals.css', array(), filemtime( get_stylesheet_directory() . '/css/generals.css' ), 'all');
     endif;
 
+    if(is_singular() || is_page()){
+        wp_enqueue_style( 'woocommerce-updates', get_template_directory_uri() . '/css/woocommerce-updates.css', array(), filemtime( get_stylesheet_directory() . '/css/woocommerce-updates.css' ), 'all');
+    }
+
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
+function pampas_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'pampas_add_woocommerce_support' );
+
+
+
+// Quitar Título del Producto
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+
+
+// Quitar Metadatos del Producto
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+// Quitar Tabs
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+function woo_remove_product_tabs( $tabs ) {
+    unset( $tabs['description'] );          // Remove the description tab
+    unset( $tabs['reviews'] );          // Remove the reviews tab
+    unset( $tabs['additional_information'] );   // Remove the additional information tab
+    return $tabs;
+}
+
+// Cambiar Texto del Select de Prices
+add_filter( 'woocommerce_dropdown_variation_attribute_options_args', 'cinchws_filter_dropdown_args', 10 );
+function cinchws_filter_dropdown_args( $args ) {
+    $args['show_option_none'] = 'CHOOSE AN OPTION';
+    return $args;
+}

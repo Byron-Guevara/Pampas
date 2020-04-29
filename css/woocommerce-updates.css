@@ -1,0 +1,181 @@
+.woocommerce .product_title {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 44px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+
+.woocommerce div.product {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.woocommerce div.product div.images.woocommerce-product-gallery {
+  width: 40%;
+}
+
+.woocommerce div.product div.images.woocommerce-product-gallery .woocommerce-product-gallery__wrapper {
+  position: relative;
+}
+
+.woocommerce div.product div.images.woocommerce-product-gallery .woocommerce-product-gallery__wrapper::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background: #4a4a49;
+  z-index: -1;
+}
+
+.woocommerce div.product div.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 60%;
+}
+
+.woocommerce div.product div.summary p.price {
+  font-family: 'BentonModDisp-Regular';
+  font-size: 34px;
+  letter-spacing: 4px;
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.woocommerce div.product div.summary form.cart {
+  width: 80%;
+}
+
+.woocommerce div.product div.summary form.cart .variations {
+  margin-bottom: 30px;
+}
+
+.woocommerce div.product div.summary form.cart .variations select {
+  padding: 20px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  background: transparent;
+  border: 2px solid black;
+  font-family: 'BentonModDisp-Regular';
+  text-align: center;
+  text-align-last: center;
+  -webkit-appearance: inherit;
+  margin-right: 0;
+}
+
+.woocommerce div.product div.summary form.cart .variations .reset_variations {
+  display: none !important;
+}
+
+.woocommerce div.product div.summary form.cart .variations th {
+  vertical-align: middle;
+  line-height: initial;
+}
+
+.woocommerce div.product div.summary form.cart .variations td {
+  vertical-align: middle;
+  line-height: initial;
+  text-align: right;
+}
+
+.woocommerce div.product div.summary form.cart .variations td label {
+  font-family: 'BentonModDisp-Regular';
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.woocommerce div.product div.summary form.cart .variations td.label {
+  width: 30%;
+  padding-right: 25px;
+}
+
+.woocommerce div.product div.summary form.cart .woocommerce-variation-add-to-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  float: right;
+}
+
+.woocommerce div.product div.summary form.cart .woocommerce-variation-price {
+  text-align: right;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.woocommerce div.product div.summary form.cart .woocommerce-variation-price .price {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 28px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.woocommerce div.product div.summary form.cart .quantity {
+  margin: 0;
+}
+
+.woocommerce div.product div.summary form.cart .quantity .qty {
+  padding: 20px 0;
+  padding-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  border: 2px solid black;
+  font-family: 'BentonModDisp-Regular';
+  -webkit-appearance: inherit;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.woocommerce div.product div.summary form.cart button {
+  padding: 20px 10px;
+  font-size: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  border: 2px solid black;
+  font-family: 'BentonModDisp-Regular';
+  background: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce div.product div.summary form.cart button:hover {
+  background: transparent;
+  color: black;
+  border-color: black;
+}

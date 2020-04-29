@@ -214,7 +214,7 @@ a {
 
 .contenedor-general-menu {
   height: calc(100vh - 35px);
-  min-height: 650px;
+  min-height: 700px;
   width: 73vw;
   margin: 0 auto;
   position: relative;
@@ -387,7 +387,7 @@ a {
 
 .contenedor-general-story {
   height: 100vh;
-  min-height: 650px;
+  min-height: 700px;
   width: 73vw;
   margin: 0 auto;
   position: relative;
@@ -475,7 +475,7 @@ a {
 
 .contenedor-general-wines {
   height: 100vh;
-  min-height: 650px;
+  min-height: 700px;
   width: 73vw;
   margin: 0 auto;
   position: relative;
@@ -609,7 +609,7 @@ a {
 
 .contenedor-general-reservaciones {
   height: 100vh;
-  min-height: 650px;
+  min-height: 700px;
   width: 73vw;
   margin: 0 auto;
   position: relative;
@@ -655,7 +655,7 @@ a {
 .contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones {
   width: 55%;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 60px;
   padding: 35px 45px;
   border: 2px solid #e4e4e4;
 }
@@ -759,6 +759,59 @@ a {
   margin: 0 auto;
 }
 
+.contenedor-general-producto {
+  height: 100vh;
+  min-height: 700px;
+  width: 73vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contenedor-general-producto .sup {
+  height: 100px;
+}
+
+.contenedor-general-producto .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-producto .contenedor-producto {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.contenedor-general-producto .contenedor-producto .woocommerce {
+  width: 96%;
+}
+
+.contenedor-general-producto .contenedor-producto .woocommerce div.product {
+  width: 100%;
+}
+
+.contenedor-general-producto .inf {
+  height: 100px;
+}
+
+.contenedor-general-producto .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
 .contenedor-general-contacto {
   width: 63vw;
   margin: 0 auto;
@@ -784,7 +837,7 @@ a {
   text-transform: uppercase;
   color: black;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 

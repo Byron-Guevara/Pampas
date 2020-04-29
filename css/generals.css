@@ -405,4 +405,91 @@ a {
   margin: 0 auto;
   margin-top: 85px;
   padding: 110px 0;
+  max-width: 900px;
+}
+
+.contenedor-wrapper h1, .contenedor-wrapper h2, .contenedor-wrapper h3, .contenedor-wrapper h4, .contenedor-wrapper h5, .contenedor-wrapper h6 {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 42px;
+  margin: 0;
+  margin-bottom: 40px;
+  letter-spacing: 4px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.contenedor-wrapper p {
+  font-family: 'BentonModDisp-Regular';
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  text-align: justify;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.contenedor-wrapper .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedor-wrapper .formulario .form-cont {
+  width: 100%;
+}
+
+.contenedor-wrapper .formulario .form-cont input {
+  background: transparent;
+  border: 2px solid #d2d2d2;
+  width: calc(100% - 64px);
+  padding: 10px 30px;
+  font-family: 'BentonModDisp-Regular';
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.contenedor-wrapper .formulario .form-cont textarea {
+  background: transparent;
+  border: 2px solid #d2d2d2;
+  width: calc(100% - 64px);
+  padding: 10px 30px;
+  font-family: 'BentonModDisp-Regular';
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.contenedor-wrapper .formulario .form-cont.medio {
+  width: 47%;
+}
+
+.contenedor-wrapper .formulario .form-cont-submit input {
+  background: transparent;
+  border: 2px solid transparent;
+  background: black;
+  padding: 17px 27px;
+  font-family: 'BentonModDisp-Regular';
+  font-size: 10px;
+  letter-spacing: 2px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.contenedor-wrapper .formulario .form-cont-submit input:hover {
+  border: 2px solid black;
+  background: transparent;
+  color: black;
 }
