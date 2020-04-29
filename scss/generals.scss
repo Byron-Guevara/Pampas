@@ -61,7 +61,7 @@ a {
                 font-size: 10px;
                 letter-spacing: 2px;
                 color: #a5a5a5;
-                margin-bottom: 20px;
+                margin-top: 20px;
                 outline: none;
             }
             textarea{
@@ -73,11 +73,16 @@ a {
                 font-size: 10px;
                 letter-spacing: 2px;
                 color: #a5a5a5;
-                margin-bottom: 20px;
+                margin-top: 20px;
                 outline: none;            
             }
             &.medio{
                 width: 47%;
+                &:nth-child(1), &:nth-child(2){
+                    input{
+                        margin-top: 0;
+                    }
+                }
             }
         }
         .form-cont-submit{
@@ -90,6 +95,7 @@ a {
                 font-size: 10px;
                 letter-spacing: 2px;
                 outline: none;
+                margin-top: 20px;
                 color: white;
                 cursor: pointer;
                 text-transform: uppercase;

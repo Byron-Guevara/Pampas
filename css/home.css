@@ -846,9 +846,84 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: 95px;
+  /*
+        div{
+            input{
+                background: transparent;
+                border: 2px solid #4b4b4b;
+                height: 32px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;
+                font-family: 'BentonModDisp-Regular';
+                color: #969696;
+                margin-bottom: 20px;
+                outline: none;     
+                
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+
+            textarea{
+                height: 184px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;                
+                border: 2px solid #4b4b4b;
+            }
+
+            button{
+                width: 120px;
+                height: 55px;
+                border: 0;
+                text-transform: uppercase;
+                font-family: 'BentonModDisp-Regular';
+                letter-spacing: 4px;
+                font-size: 12px;
+                outline: none;
+                cursor: pointer;
+                background: black;
+                color: white;
+                border: 2px solid transparent;
+                float: right;
+                margin-top: 15px;
+                transition: all .3s;
+
+                &:hover{
+                    border: 2px solid black;
+                    color: black;
+                    background: white;
+                }
+            }
+
+
+            &:first-child{
+                width: 43%;
+            }
+            &:last-child{
+                width: 57%;
+                margin-left: 20px;
+            }
+        }
+        */
 }
 
-.contenedor-general-contacto .cont-form div input {
+.contenedor-general-contacto .cont-form > div {
+  width: 100%;
+}
+
+.contenedor-general-contacto .cont-form > div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont {
+  width: 100%;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont input {
   background: transparent;
   border: 2px solid #4b4b4b;
   height: 32px;
@@ -856,22 +931,22 @@ a {
   padding: 10px 30px;
   font-family: 'BentonModDisp-Regular';
   color: #969696;
-  margin-bottom: 20px;
+  margin-top: 20px;
   outline: none;
 }
 
-.contenedor-general-contacto .cont-form div input:last-child {
-  margin-bottom: 0;
-}
-
-.contenedor-general-contacto .cont-form div textarea {
+.contenedor-general-contacto .cont-form > div form .col .form-cont textarea {
   height: 184px;
   width: calc(100% - 64px);
   padding: 10px 30px;
   border: 2px solid #4b4b4b;
 }
 
-.contenedor-general-contacto .cont-form div button {
+.contenedor-general-contacto .cont-form > div form .col .form-cont:first-child input {
+  margin-top: 0;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont-submit input {
   width: 120px;
   height: 55px;
   border: 0;
@@ -890,18 +965,18 @@ a {
   transition: all .3s;
 }
 
-.contenedor-general-contacto .cont-form div button:hover {
+.contenedor-general-contacto .cont-form > div form .col .form-cont-submit input:hover {
   border: 2px solid black;
   color: black;
   background: white;
 }
 
-.contenedor-general-contacto .cont-form div:first-child {
-  width: 43%;
+.contenedor-general-contacto .cont-form > div form .col:nth-of-type(2) {
+  width: 42%;
 }
 
-.contenedor-general-contacto .cont-form div:last-child {
-  width: 57%;
+.contenedor-general-contacto .cont-form > div form .col:nth-of-type(3) {
+  width: calc(58% - 20px);
   margin-left: 20px;
 }
 

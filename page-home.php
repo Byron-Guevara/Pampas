@@ -290,6 +290,7 @@
             </p>
 
             <div class="cont-form">
+                <!--
                 <div>
                     <input type="text" placeholder="Name*">
                     <input type="text" placeholder="Phone*">
@@ -299,6 +300,8 @@
                     <textarea placeholder="Message"></textarea>
                     <button> Send </button>
                 </div>
+                -->
+                <?php echo do_shortcode( '[contact-form-7 id="176" title="Home"]' ); ?>
             </div>
 
         </div>

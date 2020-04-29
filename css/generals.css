@@ -451,7 +451,7 @@ a {
   font-size: 10px;
   letter-spacing: 2px;
   color: #a5a5a5;
-  margin-bottom: 20px;
+  margin-top: 20px;
   outline: none;
 }
 
@@ -464,12 +464,16 @@ a {
   font-size: 10px;
   letter-spacing: 2px;
   color: #a5a5a5;
-  margin-bottom: 20px;
+  margin-top: 20px;
   outline: none;
 }
 
 .contenedor-wrapper .formulario .form-cont.medio {
   width: 47%;
+}
+
+.contenedor-wrapper .formulario .form-cont.medio:nth-child(1) input, .contenedor-wrapper .formulario .form-cont.medio:nth-child(2) input {
+  margin-top: 0;
 }
 
 .contenedor-wrapper .formulario .form-cont-submit input {
@@ -481,6 +485,7 @@ a {
   font-size: 10px;
   letter-spacing: 2px;
   outline: none;
+  margin-top: 20px;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
