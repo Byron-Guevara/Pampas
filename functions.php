@@ -26,15 +26,25 @@ function add_theme_scripts() {
         wp_enqueue_script('owl.carousel.min', get_template_directory_uri().'/js/owl.carousel.min.js', array('jquery'),'1.1', true);
     endif;
 
+    /*
     if(is_page_template('page-nosotros.php')){
         wp_enqueue_style( 'nosotros', get_template_directory_uri() . '/css/nosotros.css', array(), filemtime( get_stylesheet_directory() . '/css/nosotros.css' ), 'all');
     }
+    */
+
     if(!is_front_page()):
         wp_enqueue_style( 'generals', get_template_directory_uri() . '/css/generals.css', array(), filemtime( get_stylesheet_directory() . '/css/generals.css' ), 'all');
     endif;
 
     if(is_singular() || is_page()){
         wp_enqueue_style( 'woocommerce-updates', get_template_directory_uri() . '/css/woocommerce-updates.css', array(), filemtime( get_stylesheet_directory() . '/css/woocommerce-updates.css' ), 'all');
+    }
+
+    if(is_page_template('page-dinnermenu.php')){
+        wp_enqueue_style( 'dinnermenu', get_template_directory_uri() . '/css/dinnermenu.css', array(), filemtime( get_stylesheet_directory() . '/css/dinnermenu.css' ), 'all');
+        wp_enqueue_style( 'owl.carousel.min', get_template_directory_uri() . '/css/owl.carousel.min.css', array(), '1.1', 'all');
+        wp_enqueue_style( 'owl.theme.default.min', get_template_directory_uri() . '/css/owl.theme.default.min.css', array(), '1.1', 'all');
+        wp_enqueue_script('owl.carousel.min', get_template_directory_uri().'/js/owl.carousel.min.js', array('jquery'),'1.1', true);
     }
 
 }

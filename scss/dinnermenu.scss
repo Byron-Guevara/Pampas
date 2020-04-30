@@ -1,0 +1,135 @@
+.contenedor-general-dinnermenu{
+    padding-bottom: 70px;
+
+    p.enc{
+        font-family: 'BentonModDisp-Bold';
+        font-size: 42px;
+        margin: 0;
+        letter-spacing: 4px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .contenedor-dinnermenu{
+        width: 100%;
+        height: calc(100% - 200px);
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        .info{
+            width: 50%;
+            p.tit{
+                font-family: 'BentonModDisp-Bold';
+                color: black;
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 44px;
+                letter-spacing: 10px;
+                margin-bottom: 30px;
+            }
+            ul{
+                li{
+                    font-family: 'BentonModDisp-Regular';
+                    color: #a5a5a5;
+                    margin: 20px 0;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    &:first-child{
+                        color: #4a4a49;
+                        font-size: 26px;
+                        letter-spacing: 6px;
+                    }
+                }
+            }       
+        }
+        .media{
+            padding: 0 25px;
+            width: calc(50% - 50px);
+            .cont-slider{
+                position: relative;
+                .cont-slide{
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                .owl-nav{
+                    position: absolute;
+                    margin: 0;
+                    button{
+                        margin-right: 20px;
+                        margin-top: 15px;
+                        outline: none;
+                        img{
+                            width: 30px;
+                        }
+                        &:hover{
+                            background: transparent;
+                            opacity: .7;
+                        }
+                        &.disabled{
+                            &:hover{
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
+                .owl-dots{
+                    position: absolute;
+                    right: 0;
+                    margin-top: 15px;
+                    .owl-dot{
+                        outline: none;
+                        span{
+                            width: 50px;
+                            height: 3px;
+                            border-radius: 0;
+                        }
+                    }
+                }
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: -25px;
+                    left: -25px;
+                    width: 100%;
+                    height: 100%;
+                    border: 2px solid #4a4a49;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+}
+
+
+.contenedor-general-appetizers{
+
+    p.enc{
+        font-family: 'BentonModDisp-Bold';
+        font-size: 42px;
+        margin: 0;
+        letter-spacing: 4px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .contenedor-appetizers{
+        margin-top: 50px;
+        p{
+            font-family: 'BentonModDisp-Regular';
+            color: #a5a5a5;
+            margin: 20px 0;
+            font-size: 14px;
+
+            &.tit{
+                font-family: 'BentonModDisp-Bold';
+                color: #4a4a49;
+            }
+        }
+    }
+}

@@ -1,0 +1,144 @@
+.contenedor-general-dinnermenu {
+  padding-bottom: 70px;
+}
+
+.contenedor-general-dinnermenu p.enc {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 42px;
+  margin: 0;
+  letter-spacing: 4px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .info {
+  width: 50%;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .info p.tit {
+  font-family: 'BentonModDisp-Bold';
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .info ul li {
+  font-family: 'BentonModDisp-Regular';
+  color: #a5a5a5;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .info ul li:first-child {
+  color: #4a4a49;
+  font-size: 26px;
+  letter-spacing: 6px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media {
+  padding: 0 25px;
+  width: calc(50% - 50px);
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider {
+  position: relative;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .cont-slide img {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-nav {
+  position: absolute;
+  margin: 0;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-nav button {
+  margin-right: 20px;
+  margin-top: 15px;
+  outline: none;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-nav button img {
+  width: 30px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-nav button:hover {
+  background: transparent;
+  opacity: .7;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-nav button.disabled:hover {
+  opacity: .5;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-dots {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-dots .owl-dot {
+  outline: none;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider .owl-dots .owl-dot span {
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+}
+
+.contenedor-general-dinnermenu .contenedor-dinnermenu .media .cont-slider:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a4a49;
+  z-index: -1;
+}
+
+.contenedor-general-appetizers p.enc {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 42px;
+  margin: 0;
+  letter-spacing: 4px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenedor-general-appetizers .contenedor-appetizers {
+  margin-top: 50px;
+}
+
+.contenedor-general-appetizers .contenedor-appetizers p {
+  font-family: 'BentonModDisp-Regular';
+  color: #a5a5a5;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.contenedor-general-appetizers .contenedor-appetizers p.tit {
+  font-family: 'BentonModDisp-Bold';
+  color: #4a4a49;
+}
