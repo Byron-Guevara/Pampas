@@ -142,3 +142,31 @@
   font-family: 'BentonModDisp-Bold';
   color: #4a4a49;
 }
+
+@media screen and (max-width: 767px) {
+  .contenedor-general-dinnermenu p.enc {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-dinnermenu .contenedor-dinnermenu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  .contenedor-general-dinnermenu .contenedor-dinnermenu .info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contenedor-general-dinnermenu .contenedor-dinnermenu .media {
+    width: calc(100% - 50px);
+    margin-bottom: 50px;
+  }
+  .contenedor-general-appetizers p.enc {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+}

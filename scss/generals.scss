@@ -110,4 +110,96 @@ a {
         }
     }
 
+    .formulario-carrers{
+        h5{
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="tel"]{
+            background: transparent;
+            border: 2px solid #d2d2d2;
+            width: calc(100% - 64px);
+            padding: 10px 30px;
+            font-family: 'BentonModDisp-Regular';
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: #a5a5a5;
+            margin-top: 20px;
+            outline: none;
+        }
+        input[type="submit"]{
+            background: transparent;
+            border: 2px solid transparent;
+            background: black;
+            padding: 17px 27px;                
+            font-family: 'BentonModDisp-Regular';
+            font-size: 10px;
+            letter-spacing: 2px;
+            outline: none;
+            margin-top: 20px;
+            color: white;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s;
+
+            &:hover{
+                border: 2px solid black;
+                background: transparent;
+                color: black;
+            }
+        }
+        select{
+            background: transparent;
+            border: 2px solid #d2d2d2;
+            width: calc(100% - 4px);
+            height: 35px;
+            padding: 10px 30px;
+            font-family: 'BentonModDisp-Regular';
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: #a5a5a5;
+            margin-top: 20px;
+            outline: none;
+        }
+        textarea{
+            background: transparent;
+            border: 2px solid #d2d2d2;
+            width: calc(100% - 64px);
+            padding: 10px 30px;
+            font-family: 'BentonModDisp-Regular';
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: #a5a5a5;
+            margin-top: 20px;
+            outline: none;            
+        }
+        .wpcf7-checkbox{
+            font-family: 'BentonModDisp-Regular';
+            letter-spacing: 2px;
+            color: #a5a5a5;
+            text-align: justify;
+            margin: 15px 0;
+            font-size: 14px;        
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .contenedor-wrapper{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contenedor-wrapper{
+        width: 85%;
+        h1, h2, h3, h4, h5, h6{
+            font-size: 30px;
+            letter-spacing: 4px;
+            text-align: center;
+        }
+    }
 }

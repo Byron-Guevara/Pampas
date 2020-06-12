@@ -102,3 +102,43 @@ footer{
         }
     }
 }
+
+@media screen and (min-width: 1023px) and (max-width: 1279px){
+
+    footer{
+        .contenedor-general-footer{
+            width: 63%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    footer{
+        .contenedor-general-footer{
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    footer{
+        padding: 20px 0;
+        .contenedor-general-footer{
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+            .menu{
+                margin-bottom: 10px;
+                justify-content: space-evenly;
+                .cont-menu{
+                    width: 50%;
+                }
+            }
+            .redes{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

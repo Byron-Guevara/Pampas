@@ -1,0 +1,838 @@
+
+.contenedor-general-dinning{
+    background: white;
+}
+
+
+.contenedor-general-appetizers{
+    height: calc(100vh - 85px);    
+    min-height: 615px;
+    width: 73vw;
+    margin: 0 auto;
+    margin-top: 85px;
+    position: relative;
+
+    .contenedor-apperizers{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: calc(100% - 100px);        
+        .info{
+            width: 50%;
+            p.tit{
+                font-family: 'BentonModDisp-Bold';
+                color: black;
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 44px;
+                letter-spacing: 10px;
+                margin-bottom: 30px;
+            }
+            ul{
+                li{
+                    font-family: 'BentonModDisp-Regular';
+                    color: #a5a5a5;
+                    margin: 20px 0;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    &:first-child{
+                        color: #4a4a49;
+                        font-size: 26px;
+                        letter-spacing: 6px;
+                    }
+                }
+            }
+        }
+        .media{
+            padding: 0 25px;
+            width: calc(50% - 50px);
+            .cont-slider{
+                position: relative;
+                .cont-slide{
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                .owl-nav{
+                    position: absolute;
+                    margin: 0;
+                    button{
+                        margin-right: 20px;
+                        margin-top: 15px;
+                        outline: none;
+                        img{
+                            width: 30px;
+                        }
+                        &.disabled{
+                            &:hover{
+                                opacity: .5;
+                            }
+                        }
+                        &:hover{
+                            background: transparent;
+                            opacity: .7;
+                        }
+                    }
+                }
+                .owl-dots{
+                    position: absolute;
+                    right: 0;
+                    margin-top: 15px;
+                    .owl-dot{
+                        outline: none;
+                        span{
+                            width: 50px;
+                            height: 3px;
+                            border-radius: 0;
+                        }
+                    }
+                }
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: -25px;
+                    left: -25px;
+                    width: 100%;
+                    height: 100%;
+                    border: 2px solid #4a4a49;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+    .inf{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+.contenedor-general-story{
+    height: 100vh;
+    min-height: 700px;
+    width: 73vw;
+    margin: 0 auto;
+    position: relative;
+
+    .sup{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+
+
+    .contenedor-story{
+        width: 100%;
+        height: calc(100% - 200px);
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .info{
+            width: calc(50% - 60px);
+            padding-left: 60px;
+            p.tit{
+                font-family: 'BentonModDisp-Bold';
+                color: black;
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 44px;
+                letter-spacing: 10px;
+                margin-bottom: 30px;
+            }
+            p.desc{
+                font-size: 14px;
+                color: #4a4a49;
+                margin: 0;
+            }        
+        }
+        .media{
+            padding: 0 25px;
+            width: calc(50% - 50px);
+            .cont-slider{
+                position: relative;
+                .cont-slide{
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                }
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: -25px;
+                    left: -25px;
+                    width: 100%;
+                    height: 100%;
+                    border: 2px solid #4a4a49;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+
+    .inf{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+.contenedor-general-wines{
+    height: 100vh;
+    min-height: 700px;
+    width: 73vw;
+    margin: 0 auto;
+    position: relative;
+
+    .sup{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+
+
+    .contenedor-wines{
+        width: 100%;
+        height: calc(100% - 200px);
+        display: flex;
+        align-items: center;
+        .info{
+            width: 50%;
+            p.tit{
+                font-family: 'BentonModDisp-Bold';
+                color: black;
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 44px;
+                letter-spacing: 10px;
+                margin-bottom: 30px;
+            }
+            ul{
+                li{
+                    font-family: 'BentonModDisp-Regular';
+                    color: #a5a5a5;
+                    margin: 20px 0;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    &:first-child{
+                        color: #4a4a49;
+                        font-size: 26px;
+                        letter-spacing: 6px;
+                    }
+                }
+            }       
+        }
+        .media{
+            padding: 0 25px;
+            width: calc(50% - 50px);
+            .cont-slider{
+                position: relative;
+                .cont-slide{
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                .owl-nav{
+                    position: absolute;
+                    margin: 0;
+                    button{
+                        margin-right: 20px;
+                        margin-top: 15px;
+                        outline: none;
+                        img{
+                            width: 30px;
+                        }
+                        &:hover{
+                            background: transparent;
+                            opacity: .7;
+                        }
+                        &.disabled{
+                            &:hover{
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
+                .owl-dots{
+                    position: absolute;
+                    right: 0;
+                    margin-top: 15px;
+                    .owl-dot{
+                        outline: none;
+                        span{
+                            width: 50px;
+                            height: 3px;
+                            border-radius: 0;
+                        }
+                    }
+                }
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: -25px;
+                    left: -25px;
+                    width: 100%;
+                    height: 100%;
+                    border: 2px solid #4a4a49;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+
+    .inf{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+.contenedor-general-reservaciones{
+    //height: 100vh;
+    //min-height: 700px;
+    width: 73vw;
+    margin: 0 auto;
+    position: relative;
+
+    .sup{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+
+    .contenedor-reservaciones{
+        width: 100%;
+        height: calc(100% - 200px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0;
+
+        p.enc{
+            font-family: 'BentonModDisp-Bold';
+            font-size: 44px;
+            letter-spacing: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .contenedor-widget-xs{
+            display: none;
+        }
+
+        .contenedor-widget-web{
+            iframe{
+                height: auto;
+            }
+        }
+
+        .cont-reservaciones{
+            width: 55%;
+            margin: 0 auto;
+            margin-top: 60px;
+            padding: 35px 45px;
+            border: 2px solid #e4e4e4;
+            .info{
+                display: flex;
+                p{
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    color: #a5a5a5;
+                    margin-right: 20px;
+                    &.active{
+                        color: #4a4a49;
+                    }
+                }
+            }
+            .campos{
+                display: flex;
+                margin-top: 50px;
+                select{
+                    width: 100%;
+                    height: 55px;
+                    background: transparent;
+                    border: 1px solid black;
+                    border-radius: 0;
+                    appearance: none;
+                }
+                button{
+                    height: 55px;
+                    background: black;
+                    border: 1px solid transparent;
+                    width: 100%;
+                    color: white;
+                    cursor: pointer;
+                    outline: none;
+                    transition: all .3s;
+                    &:hover{
+                        background: white;
+                        border: 1px solid black;
+                        color: black;
+                    }
+                }
+            }
+            .detalles{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 45px;
+                p{
+                    width: 23%;
+                    height: 55px;
+                    border: 1px solid transparent;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #f9f8f7;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    color: #4a4a49;
+                    &.active{
+                        background: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .inf{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+
+
+
+.contenedor-general-producto{
+    height: 100vh;
+    min-height: 700px;
+    width: 73vw;
+    margin: 0 auto;
+    position: relative;
+
+    .sup{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+
+    .contenedor-producto{
+        width: 100%;
+        height: calc(100% - 200px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .woocommerce{
+            width: 96%;
+            div.product{
+                width: 100%;
+            }
+            
+        }
+    }
+
+    .inf{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+
+.contenedor-general-contacto{
+    width: 63vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    .sup{
+        height: 100px;
+        .line{
+            width: 2px;
+            height: 100%;
+            background: black;
+            margin: 0 auto;
+        }
+    }
+    p.enc{
+        font-family: 'BentonModDisp-Bold';
+        font-size: 44px;
+        letter-spacing: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .cont-form{
+        display: flex;
+        margin-top: 95px;
+        > div{
+            width: 100%;
+            form{
+                display: flex;
+                flex-wrap: wrap;
+                .col{
+                    .form-cont{
+                        width: 100%;
+                        input{
+                            background: transparent;
+                            border: 2px solid #4b4b4b;
+                            height: 32px;
+                            width: calc(100% - 64px);
+                            padding: 10px 30px;
+                            font-family: 'BentonModDisp-Regular';
+                            color: #969696;
+                            margin-top: 20px;
+                            outline: none;     
+                        }
+            
+                        textarea{
+                            height: 184px;
+                            width: calc(100% - 64px);
+                            padding: 10px 30px;                
+                            border: 2px solid #4b4b4b;
+                        }
+
+                        &:first-child{
+                            input{
+                                margin-top: 0;
+                            }
+                        }
+                    }
+
+
+                    .form-cont-submit{
+                        input{
+                            width: 120px;
+                            height: 55px;
+                            border: 0;
+                            text-transform: uppercase;
+                            font-family: 'BentonModDisp-Regular';
+                            letter-spacing: 4px;
+                            font-size: 12px;
+                            outline: none;
+                            cursor: pointer;
+                            background: black;
+                            color: white;
+                            border: 2px solid transparent;
+                            float: right;
+                            margin-top: 15px;
+                            transition: all .3s;
+                            &:hover{
+                                border: 2px solid black;
+                                color: black;
+                                background: white;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(2){
+                        width: 42%;
+                    }
+                    &:nth-of-type(3){
+                        width: calc(58% - 20px);
+                        margin-left: 20px;
+                    }
+
+                }
+            }
+        }
+        /*
+        div{
+            input{
+                background: transparent;
+                border: 2px solid #4b4b4b;
+                height: 32px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;
+                font-family: 'BentonModDisp-Regular';
+                color: #969696;
+                margin-bottom: 20px;
+                outline: none;     
+                
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+
+            textarea{
+                height: 184px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;                
+                border: 2px solid #4b4b4b;
+            }
+
+            button{
+                width: 120px;
+                height: 55px;
+                border: 0;
+                text-transform: uppercase;
+                font-family: 'BentonModDisp-Regular';
+                letter-spacing: 4px;
+                font-size: 12px;
+                outline: none;
+                cursor: pointer;
+                background: black;
+                color: white;
+                border: 2px solid transparent;
+                float: right;
+                margin-top: 15px;
+                transition: all .3s;
+
+                &:hover{
+                    border: 2px solid black;
+                    color: black;
+                    background: white;
+                }
+            }
+
+
+            &:first-child{
+                width: 43%;
+            }
+            &:last-child{
+                width: 57%;
+                margin-left: 20px;
+            }
+        }
+        */
+    }
+}
+
+
+.contenedor-general-mapa{
+    iframe{
+        width: 100%;
+        height: 370px;
+        opacity: .5;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .contenedor-general-appetizers{
+        width: 90vw;    
+    }
+    .contenedor-general-story{
+        width: 90vw;
+        .contenedor-story{
+            .info{
+                width: calc(50% - 30px);
+                padding-left: 30px;
+            }
+        }
+    }
+    .contenedor-general-wines{
+        width: 90%;
+    }
+    .contenedor-general-reservaciones{
+        .contenedor-reservaciones{
+            .contenedor-widget-xs{
+                display: block;
+            }
+            .contenedor-widget-web{
+                display: none;
+            }
+        }
+    }
+    .contenedor-general-producto{
+        width: 90%;
+    }
+    .contenedor-general-contacto{
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 767px){
+
+    .contenedor-general-appetizers{
+        width: 90%;
+        height: auto; 
+        min-height: unset;
+        .contenedor-apperizers{
+            flex-direction: column;
+            .info{
+                width: 100%;
+                margin: 50px 0 30px;
+                p.tit{
+                    font-size: 30px;
+                    letter-spacing: 4px;
+                    margin-bottom: 10px;
+                }
+            }
+            .media{
+                width: calc(100% - 50px);
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .contenedor-general-story{
+        width: 90%;
+        height: auto;
+        min-height: unset;
+        .contenedor-story{
+            flex-direction: column;
+            .media{
+                padding: 0;
+                width: calc(100% - 50px);
+                margin: 30px 0;
+            }
+            .info{
+                width: 100%;
+                padding-left: 0;
+                margin-bottom: 30px;
+                p.tit{
+                    font-size: 30px;
+                    letter-spacing: 4px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .contenedor-general-wines{
+        width: 90%;
+        height: auto;
+        min-height: unset;
+        .contenedor-wines{
+            flex-direction: column;
+            .info{
+                width: 100%;
+                margin: 30px 0;
+                p.tit{
+                    font-size: 30px;
+                    letter-spacing: 4px;
+                    margin-bottom: 10px;
+                }
+            }
+            .media{
+                width: calc(100% - 50px);
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .contenedor-general-reservaciones{
+        width: 90%;
+        height: auto;
+        min-height: unset;
+        .contenedor-reservaciones{
+            margin: 30px 0;
+            p.enc{
+                font-size: 30px;
+                letter-spacing: 4px;
+                margin-bottom: 10px;
+            }
+            .contenedor-widget-xs{
+                display: block;
+            }
+            .contenedor-widget-web{
+                display: none;
+            }
+        }
+    }
+
+    .contenedor-general-producto{
+        width: 90%;
+        height: auto;
+        min-height: unset;
+        h1{
+            margin-top: 30px !important;
+        }
+    }
+
+    .contenedor-general-contacto{
+        width: 90%;
+        height: auto;
+        min-height: unset;
+        p.enc{
+            font-size: 30px;
+            letter-spacing: 4px;
+            margin-top: 30px !important;
+            margin-bottom: 10px;
+        }
+        .cont-form{
+            flex-direction: column;
+            margin-top: 30px;
+            > div{
+                form{
+                    .col{
+                        &:nth-of-type(2){
+                            width: 100%;
+                            margin-bottom: 20px;
+                        }
+                        &:nth-of-type(3){
+                            width: 100%;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

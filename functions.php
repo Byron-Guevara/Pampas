@@ -32,6 +32,13 @@ function add_theme_scripts() {
     }
     */
 
+    if(is_page_template('page-dinning.php') ):
+        wp_enqueue_style( 'dinning', get_template_directory_uri() . '/css/dinning.css', array(), filemtime( get_stylesheet_directory() . '/css/dinning.css' ), 'all');
+        wp_enqueue_style( 'owl.carousel.min', get_template_directory_uri() . '/css/owl.carousel.min.css', array(), '1.1', 'all');
+        wp_enqueue_style( 'owl.theme.default.min', get_template_directory_uri() . '/css/owl.theme.default.min.css', array(), '1.1', 'all');
+        wp_enqueue_script('owl.carousel.min', get_template_directory_uri().'/js/owl.carousel.min.js', array('jquery'),'1.1', true);
+    endif;
+
     if(!is_front_page()):
         wp_enqueue_style( 'generals', get_template_directory_uri() . '/css/generals.css', array(), filemtime( get_stylesheet_directory() . '/css/generals.css' ), 'all');
     endif;
@@ -55,11 +62,8 @@ function pampas_add_woocommerce_support() {
 }
 add_action( 'after_setup_theme', 'pampas_add_woocommerce_support' );
 
-
-
 // Quitar Título del Producto
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
-
 
 // Quitar Metadatos del Producto
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );

@@ -1,3 +1,7 @@
+.woocommerce {
+  /*Product Page*/
+}
+
 .woocommerce .product_title {
   font-family: 'BentonModDisp-Bold';
   font-size: 44px;
@@ -178,4 +182,138 @@
   background: transparent;
   color: black;
   border-color: black;
+}
+
+.woocommerce .cart td a {
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .cart td a:hover {
+  color: #a5a5a5;
+}
+
+.woocommerce .shop_table td a {
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .shop_table td a:hover {
+  color: #a5a5a5;
+}
+
+.woocommerce .cart_totals h2 {
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.woocommerce .cart_totals .wc-proceed-to-checkout .checkout-button {
+  background-color: black !important;
+  border: 2px solid black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .cart_totals .wc-proceed-to-checkout .checkout-button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.woocommerce .woocommerce-message a {
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .woocommerce-message a:hover {
+  color: #a5a5a5;
+}
+
+.woocommerce .woocommerce-checkout h3 {
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.woocommerce .woocommerce-checkout #customer_details {
+  margin-bottom: 30px;
+}
+
+.woocommerce .woocommerce-checkout .form-row input.input-text {
+  background: transparent;
+  border: 2px solid #d2d2d2;
+  height: 30px;
+  font-family: 'BentonModDisp-Regular';
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  outline: none;
+}
+
+.woocommerce .woocommerce-info a {
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .woocommerce-info a:hover {
+  color: #a5a5a5;
+}
+
+.woocommerce .woocommerce-privacy-policy-text a {
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce .woocommerce-privacy-policy-text a:hover {
+  color: #a5a5a5;
+}
+
+.woocommerce button.button.alt {
+  background-color: black !important;
+  border: 2px solid black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.woocommerce button.button.alt:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+@media screen and (max-width: 767px) {
+  .woocommerce {
+    /*Product Page*/
+  }
+  .woocommerce .product_title {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .woocommerce div.product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  .woocommerce div.product div.images.woocommerce-product-gallery {
+    width: 100%;
+  }
+  .woocommerce div.product div.summary {
+    width: 100%;
+  }
+  .woocommerce div.product div.summary p.price {
+    font-size: 26px;
+  }
+  .woocommerce div.product div.summary form.cart {
+    width: 100%;
+  }
 }

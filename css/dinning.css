@@ -1,0 +1,893 @@
+.contenedor-general-dinning {
+  background: white;
+}
+
+.contenedor-general-appetizers {
+  height: calc(100vh - 85px);
+  min-height: 615px;
+  width: 73vw;
+  margin: 0 auto;
+  margin-top: 85px;
+  position: relative;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .info {
+  width: 50%;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .info p.tit {
+  font-family: 'BentonModDisp-Bold';
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .info ul li {
+  font-family: 'BentonModDisp-Regular';
+  color: #a5a5a5;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .info ul li:first-child {
+  color: #4a4a49;
+  font-size: 26px;
+  letter-spacing: 6px;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media {
+  padding: 0 25px;
+  width: calc(50% - 50px);
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider {
+  position: relative;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .cont-slide img {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-nav {
+  position: absolute;
+  margin: 0;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-nav button {
+  margin-right: 20px;
+  margin-top: 15px;
+  outline: none;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-nav button img {
+  width: 30px;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-nav button.disabled:hover {
+  opacity: .5;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-nav button:hover {
+  background: transparent;
+  opacity: .7;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-dots {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-dots .owl-dot {
+  outline: none;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider .owl-dots .owl-dot span {
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+}
+
+.contenedor-general-appetizers .contenedor-apperizers .media .cont-slider:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a4a49;
+  z-index: -1;
+}
+
+.contenedor-general-appetizers .inf {
+  height: 100px;
+}
+
+.contenedor-general-appetizers .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-story {
+  height: 100vh;
+  min-height: 700px;
+  width: 73vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contenedor-general-story .sup {
+  height: 100px;
+}
+
+.contenedor-general-story .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-story .contenedor-story {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.contenedor-general-story .contenedor-story .info {
+  width: calc(50% - 60px);
+  padding-left: 60px;
+}
+
+.contenedor-general-story .contenedor-story .info p.tit {
+  font-family: 'BentonModDisp-Bold';
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.contenedor-general-story .contenedor-story .info p.desc {
+  font-size: 14px;
+  color: #4a4a49;
+  margin: 0;
+}
+
+.contenedor-general-story .contenedor-story .media {
+  padding: 0 25px;
+  width: calc(50% - 50px);
+}
+
+.contenedor-general-story .contenedor-story .media .cont-slider {
+  position: relative;
+}
+
+.contenedor-general-story .contenedor-story .media .cont-slider .cont-slide img {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-general-story .contenedor-story .media .cont-slider:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a4a49;
+  z-index: -1;
+}
+
+.contenedor-general-story .inf {
+  height: 100px;
+}
+
+.contenedor-general-story .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-wines {
+  height: 100vh;
+  min-height: 700px;
+  width: 73vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contenedor-general-wines .sup {
+  height: 100px;
+}
+
+.contenedor-general-wines .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-wines .contenedor-wines {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-general-wines .contenedor-wines .info {
+  width: 50%;
+}
+
+.contenedor-general-wines .contenedor-wines .info p.tit {
+  font-family: 'BentonModDisp-Bold';
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.contenedor-general-wines .contenedor-wines .info ul li {
+  font-family: 'BentonModDisp-Regular';
+  color: #a5a5a5;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contenedor-general-wines .contenedor-wines .info ul li:first-child {
+  color: #4a4a49;
+  font-size: 26px;
+  letter-spacing: 6px;
+}
+
+.contenedor-general-wines .contenedor-wines .media {
+  padding: 0 25px;
+  width: calc(50% - 50px);
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider {
+  position: relative;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .cont-slide img {
+  width: 100%;
+  display: block;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-nav {
+  position: absolute;
+  margin: 0;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-nav button {
+  margin-right: 20px;
+  margin-top: 15px;
+  outline: none;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-nav button img {
+  width: 30px;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-nav button:hover {
+  background: transparent;
+  opacity: .7;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-nav button.disabled:hover {
+  opacity: .5;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-dots {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-dots .owl-dot {
+  outline: none;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider .owl-dots .owl-dot span {
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+}
+
+.contenedor-general-wines .contenedor-wines .media .cont-slider:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a4a49;
+  z-index: -1;
+}
+
+.contenedor-general-wines .inf {
+  height: 100px;
+}
+
+.contenedor-general-wines .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-reservaciones {
+  width: 73vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contenedor-general-reservaciones .sup {
+  height: 100px;
+}
+
+.contenedor-general-reservaciones .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones p.enc {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 44px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-xs {
+  display: none;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-web iframe {
+  height: auto;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 35px 45px;
+  border: 2px solid #e4e4e4;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .info p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  margin-right: 20px;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .info p.active {
+  color: #4a4a49;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .campos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .campos select {
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .campos button {
+  height: 55px;
+  background: black;
+  border: 1px solid transparent;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .campos button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .detalles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 45px;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .detalles p {
+  width: 23%;
+  height: 55px;
+  border: 1px solid transparent;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f9f8f7;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #4a4a49;
+}
+
+.contenedor-general-reservaciones .contenedor-reservaciones .cont-reservaciones .detalles p.active {
+  background: black;
+  color: white;
+}
+
+.contenedor-general-reservaciones .inf {
+  height: 100px;
+}
+
+.contenedor-general-reservaciones .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-producto {
+  height: 100vh;
+  min-height: 700px;
+  width: 73vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contenedor-general-producto .sup {
+  height: 100px;
+}
+
+.contenedor-general-producto .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-producto .contenedor-producto {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.contenedor-general-producto .contenedor-producto .woocommerce {
+  width: 96%;
+}
+
+.contenedor-general-producto .contenedor-producto .woocommerce div.product {
+  width: 100%;
+}
+
+.contenedor-general-producto .inf {
+  height: 100px;
+}
+
+.contenedor-general-producto .inf .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-contacto {
+  width: 63vw;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.contenedor-general-contacto .sup {
+  height: 100px;
+}
+
+.contenedor-general-contacto .sup .line {
+  width: 2px;
+  height: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.contenedor-general-contacto p.enc {
+  font-family: 'BentonModDisp-Bold';
+  font-size: 44px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contenedor-general-contacto .cont-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 95px;
+  /*
+        div{
+            input{
+                background: transparent;
+                border: 2px solid #4b4b4b;
+                height: 32px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;
+                font-family: 'BentonModDisp-Regular';
+                color: #969696;
+                margin-bottom: 20px;
+                outline: none;     
+                
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+
+            textarea{
+                height: 184px;
+                width: calc(100% - 64px);
+                padding: 10px 30px;                
+                border: 2px solid #4b4b4b;
+            }
+
+            button{
+                width: 120px;
+                height: 55px;
+                border: 0;
+                text-transform: uppercase;
+                font-family: 'BentonModDisp-Regular';
+                letter-spacing: 4px;
+                font-size: 12px;
+                outline: none;
+                cursor: pointer;
+                background: black;
+                color: white;
+                border: 2px solid transparent;
+                float: right;
+                margin-top: 15px;
+                transition: all .3s;
+
+                &:hover{
+                    border: 2px solid black;
+                    color: black;
+                    background: white;
+                }
+            }
+
+
+            &:first-child{
+                width: 43%;
+            }
+            &:last-child{
+                width: 57%;
+                margin-left: 20px;
+            }
+        }
+        */
+}
+
+.contenedor-general-contacto .cont-form > div {
+  width: 100%;
+}
+
+.contenedor-general-contacto .cont-form > div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont {
+  width: 100%;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont input {
+  background: transparent;
+  border: 2px solid #4b4b4b;
+  height: 32px;
+  width: calc(100% - 64px);
+  padding: 10px 30px;
+  font-family: 'BentonModDisp-Regular';
+  color: #969696;
+  margin-top: 20px;
+  outline: none;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont textarea {
+  height: 184px;
+  width: calc(100% - 64px);
+  padding: 10px 30px;
+  border: 2px solid #4b4b4b;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont:first-child input {
+  margin-top: 0;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont-submit input {
+  width: 120px;
+  height: 55px;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'BentonModDisp-Regular';
+  letter-spacing: 4px;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: 2px solid transparent;
+  float: right;
+  margin-top: 15px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.contenedor-general-contacto .cont-form > div form .col .form-cont-submit input:hover {
+  border: 2px solid black;
+  color: black;
+  background: white;
+}
+
+.contenedor-general-contacto .cont-form > div form .col:nth-of-type(2) {
+  width: 42%;
+}
+
+.contenedor-general-contacto .cont-form > div form .col:nth-of-type(3) {
+  width: calc(58% - 20px);
+  margin-left: 20px;
+}
+
+.contenedor-general-mapa iframe {
+  width: 100%;
+  height: 370px;
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contenedor-general-appetizers {
+    width: 90vw;
+  }
+  .contenedor-general-story {
+    width: 90vw;
+  }
+  .contenedor-general-story .contenedor-story .info {
+    width: calc(50% - 30px);
+    padding-left: 30px;
+  }
+  .contenedor-general-wines {
+    width: 90%;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-xs {
+    display: block;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-web {
+    display: none;
+  }
+  .contenedor-general-producto {
+    width: 90%;
+  }
+  .contenedor-general-contacto {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contenedor-general-appetizers {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-appetizers .contenedor-apperizers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedor-general-appetizers .contenedor-apperizers .info {
+    width: 100%;
+    margin: 50px 0 30px;
+  }
+  .contenedor-general-appetizers .contenedor-apperizers .info p.tit {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-appetizers .contenedor-apperizers .media {
+    width: calc(100% - 50px);
+    margin-bottom: 50px;
+  }
+  .contenedor-general-story {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-story .contenedor-story {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedor-general-story .contenedor-story .media {
+    padding: 0;
+    width: calc(100% - 50px);
+    margin: 30px 0;
+  }
+  .contenedor-general-story .contenedor-story .info {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .contenedor-general-story .contenedor-story .info p.tit {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-wines {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-wines .contenedor-wines {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedor-general-wines .contenedor-wines .info {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .contenedor-general-wines .contenedor-wines .info p.tit {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-wines .contenedor-wines .media {
+    width: calc(100% - 50px);
+    margin-bottom: 50px;
+  }
+  .contenedor-general-reservaciones {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones {
+    margin: 30px 0;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones p.enc {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-xs {
+    display: block;
+  }
+  .contenedor-general-reservaciones .contenedor-reservaciones .contenedor-widget-web {
+    display: none;
+  }
+  .contenedor-general-producto {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-producto h1 {
+    margin-top: 30px !important;
+  }
+  .contenedor-general-contacto {
+    width: 90%;
+    height: auto;
+    min-height: unset;
+  }
+  .contenedor-general-contacto p.enc {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: 30px !important;
+    margin-bottom: 10px;
+  }
+  .contenedor-general-contacto .cont-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  .contenedor-general-contacto .cont-form > div form .col:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contenedor-general-contacto .cont-form > div form .col:nth-of-type(3) {
+    width: 100%;
+    margin-left: 0;
+  }
+}

@@ -19,7 +19,9 @@
                 <div></div>
                 <div></div>
             </div>
-            <img src="<?php echo get_template_directory_uri() . '/img/logo-negro.png'; ?>" alt="">
+            <a href="<?php echo home_url(); ?>">
+                <img src="<?php echo get_template_directory_uri() . '/img/logo-negro.png'; ?>" alt="">
+            </a>
         </div>
     </header>
     <!-- Header -->
@@ -30,8 +32,20 @@
             <div class="close">
                 X
             </div>
-            <img src="<?php echo get_template_directory_uri().'/img/logo.png';?>" alt="">
+            <a href="<?php echo home_url(); ?>">
+                <img src="<?php echo get_template_directory_uri().'/img/logo.png';?>" alt="">
+            </a>
             <div class="cont-menu">
+
+            <?php
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'Header',
+                        'container_class' => 'Header'
+                    )
+                );
+            ?>
+                <!--
                 <ul>
                     <li>Menu</li>
                     <li>
@@ -47,6 +61,7 @@
                     <li>Reservations</li>
                     <li>Gift Cards</li>
                 </ul>
+                -->
             </div>
             <div class="cont-contact">
                 <p>Call Now!</p>
